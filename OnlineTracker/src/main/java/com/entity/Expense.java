@@ -21,6 +21,7 @@ public class Expense {
 	@ManyToOne
 	private User user;
 	
+	//constructor
 	
 	public Expense(String title, String date, String time, String desciption, String price, User user) {
 		super();
